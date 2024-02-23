@@ -25,28 +25,33 @@ header {
       font-weight: 700;
     }
   }
+  .flexible {
+    nav {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
 
-  nav {
-    ul {
-      display: flex;
-      justify-content: space-between;
-      gap: 40px;
+        li {
+          list-style: none;
 
-      li {
-        list-style: none;
-
-        a {
-          text-decoration: none;
-          color: black;
-          font-family: "Roboto", sans-serif;
-          font-size: 18px;
-          font-style: normal;
-          font-weight: 600;
-        }
-        .last-a {
-          color: #71a894;
+          a {
+            text-decoration: none;
+            color: black;
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .last-a {
+            color: #71a894;
+          }
         }
       }
+    }
+    i {
+      font-size: 32px;
+      display: none;
     }
   }
 }
@@ -154,7 +159,6 @@ main {
         font-family: Roboto;
         font-size: 18px;
         font-weight: 400;
-        letter-spacing: -0.36px;
       }
     }
     .right {

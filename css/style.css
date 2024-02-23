@@ -23,15 +23,15 @@ header .logo h2 {
   font-style: normal;
   font-weight: 700;
 }
-header nav ul {
+header .flexible nav ul {
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
-header nav ul li {
+header .flexible nav ul li {
   list-style: none;
 }
-header nav ul li a {
+header .flexible nav ul li a {
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -39,8 +39,12 @@ header nav ul li a {
   font-style: normal;
   font-weight: 600;
 }
-header nav ul li .last-a {
+header .flexible nav ul li .last-a {
   color: #71a894;
+}
+header .flexible i {
+  font-size: 32px;
+  display: none;
 }
 
 main .section-1 {
@@ -147,7 +151,6 @@ main .section-3 .left p {
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: -0.36px;
 }
 main .section-3 .right .member-box {
   padding: 32px 40px;

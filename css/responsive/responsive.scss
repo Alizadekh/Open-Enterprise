@@ -1,0 +1,129 @@
+@media only screen and (max-width: 600px) {
+  header {
+    .logo {
+      h2 {
+        display: none !important;
+      }
+    }
+    .flexible {
+      text-align: end;
+      width: 50%;
+      position: relative;
+      nav {
+        display: none;
+        position: absolute;
+        width: 100%;
+        bottom: -240px;
+        ul {
+          flex-direction: column;
+          background-color: #71a894;
+        }
+      }
+      i {
+        display: block !important;
+        &:hover nav {
+          display: block;
+        }
+      }
+    }
+  }
+  .section-1 {
+    padding: 10px 30px !important;
+    flex-direction: column-reverse;
+    margin-bottom: 65px !important;
+    img {
+      width: 100%;
+    }
+    .left {
+      text-align: center;
+      margin-top: 30px !important;
+      h1 {
+        font-size: 40px !important;
+      }
+    }
+  }
+  .section-2 {
+    padding: 10px 30px !important;
+    h2 {
+      font-size: 40px !important;
+    }
+    p {
+      width: 90% !important;
+    }
+    .boxes {
+      flex-direction: column;
+    }
+  }
+  .section-3 {
+    flex-direction: column;
+    gap: 10px;
+    .left {
+      margin: auto;
+      text-align: center;
+      h2 {
+        width: 98% !important;
+        font-size: 32px !important;
+      }
+      svg {
+        margin: auto;
+      }
+    }
+  }
+  .section-4 {
+    flex-direction: column !important;
+    .right {
+      margin: auto;
+      text-align: center;
+      h2 {
+        width: 98% !important;
+        font-size: 32px !important;
+      }
+      svg {
+        margin: auto;
+      }
+    }
+  }
+  .section-5 {
+    flex-direction: column !important;
+    .top-box {
+      flex-direction: column !important ;
+      width: 98% !important;
+      button {
+        width: 100% !important;
+      }
+    }
+    .bottom-boxes {
+      flex-direction: column;
+      .box-2 {
+        width: 98% !important;
+      }
+    }
+  }
+  .section-6 {
+    .boxes {
+      flex-direction: column !important;
+    }
+  }
+  .section-7 {
+    padding: 10px 30px !important;
+    flex-direction: column-reverse !important;
+    margin-bottom: 65px !important;
+    img {
+      width: 100%;
+    }
+    .left {
+      text-align: center;
+      margin-top: 30px !important;
+      h1 {
+        font-size: 40px !important;
+      }
+    }
+  }
+  footer {
+    flex-direction: column !important;
+    .right ul {
+      text-align: center;
+      flex-direction: column !important;
+    }
+  }
+}

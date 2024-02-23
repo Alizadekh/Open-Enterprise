@@ -1,0 +1,123 @@
+@media only screen and (max-width: 600px) {
+  header .logo h2 {
+    display: none !important;
+  }
+  header .flexible {
+    text-align: end;
+    width: 50%;
+    position: relative;
+  }
+  header .flexible nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: -240px;
+  }
+  header .flexible nav ul {
+    flex-direction: column;
+    background-color: #71a894;
+  }
+  header .flexible i {
+    display: block !important;
+  }
+  header .flexible i:hover nav {
+    display: block;
+  }
+  .section-1 {
+    padding: 10px 30px !important;
+    flex-direction: column-reverse;
+    margin-bottom: 65px !important;
+  }
+  .section-1 img {
+    width: 100%;
+  }
+  .section-1 .left {
+    text-align: center;
+    margin-top: 30px !important;
+  }
+  .section-1 .left h1 {
+    font-size: 40px !important;
+  }
+  .section-2 {
+    padding: 10px 30px !important;
+  }
+  .section-2 h2 {
+    font-size: 40px !important;
+  }
+  .section-2 p {
+    width: 90% !important;
+  }
+  .section-2 .boxes {
+    flex-direction: column;
+  }
+  .section-3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section-3 .left {
+    margin: auto;
+    text-align: center;
+  }
+  .section-3 .left h2 {
+    width: 98% !important;
+    font-size: 32px !important;
+  }
+  .section-3 .left svg {
+    margin: auto;
+  }
+  .section-4 {
+    flex-direction: column !important;
+  }
+  .section-4 .right {
+    margin: auto;
+    text-align: center;
+  }
+  .section-4 .right h2 {
+    width: 98% !important;
+    font-size: 32px !important;
+  }
+  .section-4 .right svg {
+    margin: auto;
+  }
+  .section-5 {
+    flex-direction: column !important;
+  }
+  .section-5 .top-box {
+    flex-direction: column !important;
+    width: 98% !important;
+  }
+  .section-5 .top-box button {
+    width: 100% !important;
+  }
+  .section-5 .bottom-boxes {
+    flex-direction: column;
+  }
+  .section-5 .bottom-boxes .box-2 {
+    width: 98% !important;
+  }
+  .section-6 .boxes {
+    flex-direction: column !important;
+  }
+  .section-7 {
+    padding: 10px 30px !important;
+    flex-direction: column-reverse !important;
+    margin-bottom: 65px !important;
+  }
+  .section-7 img {
+    width: 100%;
+  }
+  .section-7 .left {
+    text-align: center;
+    margin-top: 30px !important;
+  }
+  .section-7 .left h1 {
+    font-size: 40px !important;
+  }
+  footer {
+    flex-direction: column !important;
+  }
+  footer .right ul {
+    text-align: center;
+    flex-direction: column !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */
