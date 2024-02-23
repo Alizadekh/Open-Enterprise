@@ -98,6 +98,9 @@
   .section-6 .boxes {
     flex-direction: column !important;
   }
+  .section-6 img {
+    width: 100% !important;
+  }
   .section-7 {
     padding: 10px 30px !important;
     flex-direction: column-reverse !important;
