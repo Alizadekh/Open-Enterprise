@@ -14,14 +14,13 @@
   }
   header .flexible nav {
     display: block;
-    position: absolute;
+    position: fixed;
     width: 150%;
-    top: 68px;
+    top: 100px;
     transform: translateX(300px);
     transition: 0.4s;
   }
   header .flexible nav ul {
-    overflow: hidden;
     flex-direction: column;
     background-color: #71a894;
     padding: 20px;
@@ -29,7 +28,7 @@
     padding-bottom: 800px;
   }
   header .flexible nav ul li {
-    color: white;
+    z-index: 1111;
   }
   header .flexible nav ul li a {
     color: white !important;
