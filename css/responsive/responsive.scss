@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
   header {
+    position: sticky;
+    top: 0;
+    background-color: white;
     .logo {
       h2 {
         display: none !important;
@@ -10,13 +13,29 @@
       width: 50%;
       position: relative;
       nav {
-        display: none;
+        display: block;
         position: absolute;
-        width: 100%;
-        bottom: -240px;
+        width: 150%;
+        top: 68px;
+        // left: -50px;
+        // left: 300px;
+        // transform: translateX(-50px);
+        transform: translateX(300px);
+        transition: 0.4s;
+
         ul {
+          overflow: hidden;
           flex-direction: column;
           background-color: #71a894;
+          padding: 20px;
+          height: auto;
+          padding-bottom: 800px;
+          li {
+            color: white;
+            a {
+              color: white !important;
+            }
+          }
         }
       }
       i {
@@ -85,6 +104,7 @@
   }
   .section-5 {
     flex-direction: column !important;
+    padding: 10px 30px !important;
     .top-box {
       flex-direction: column !important ;
       width: 98% !important;

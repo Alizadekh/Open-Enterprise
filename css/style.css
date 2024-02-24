@@ -6,6 +6,9 @@
 }
 
 header {
+  position: sticky;
+  top: 0;
+  background-color: white;
   padding: 31px;
   display: flex;
   justify-content: space-between;

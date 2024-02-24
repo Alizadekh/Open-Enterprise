@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px) {
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
   header .logo h2 {
     display: none !important;
   }
@@ -8,14 +13,26 @@
     position: relative;
   }
   header .flexible nav {
-    display: none;
+    display: block;
     position: absolute;
-    width: 100%;
-    bottom: -240px;
+    width: 150%;
+    top: 68px;
+    transform: translateX(300px);
+    transition: 0.4s;
   }
   header .flexible nav ul {
+    overflow: hidden;
     flex-direction: column;
     background-color: #71a894;
+    padding: 20px;
+    height: auto;
+    padding-bottom: 800px;
+  }
+  header .flexible nav ul li {
+    color: white;
+  }
+  header .flexible nav ul li a {
+    color: white !important;
   }
   header .flexible i {
     display: block !important;
@@ -81,6 +98,7 @@
   }
   .section-5 {
     flex-direction: column !important;
+    padding: 10px 30px !important;
   }
   .section-5 .top-box {
     flex-direction: column !important;
@@ -99,6 +117,7 @@
     flex-direction: column !important;
   }
   .section-6 img {
+    display: none !important;
     width: 100% !important;
   }
   .section-7 {
