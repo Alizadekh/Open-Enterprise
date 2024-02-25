@@ -13,11 +13,11 @@
     position: relative;
   }
   header .flexible nav {
-    display: block;
+    display: none;
     position: fixed;
     width: 150%;
     top: 100px;
-    transform: translateX(300px);
+    transform: translateX(-300px);
     transition: 0.4s;
   }
   header .flexible nav ul {

@@ -13,14 +13,14 @@
       width: 50%;
       position: relative;
       nav {
-        display: block;
+        display: none;
         position: fixed;
         width: 150%;
         top: 100px;
         // left: -50px;
         // left: 300px;
         // transform: translateX(-50px);
-        transform: translateX(300px);
+        transform: translateX(-300px);
         transition: 0.4s;
 
         ul {
